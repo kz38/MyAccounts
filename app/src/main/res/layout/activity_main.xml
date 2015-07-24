@@ -17,8 +17,9 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="@string/button_start"
+            android:text="@string/start"
             android:id="@+id/button_start"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick_button_start" />
     </LinearLayout>
 </RelativeLayout>
